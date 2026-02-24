@@ -5,6 +5,8 @@
   <title>Apolo IA - marcas alvaro</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="apolo.css">
+  <script type="module" src="https://unpkg.com/img-comparison-slider@8/dist/index.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@8/dist/styles.css"/>
 </head>
 <body>
 
@@ -73,8 +75,11 @@
     </div>
 
     <div class="feature-img">
-      <img src="https://ovacen.com/wp-content/uploads/2022/03/optimizacion-de-imagen-con-ia.jpg" alt="Mejora calidad">
-    </div>
+      <img-comparison-slider hover="hover">
+  <img slot="first" width="100%" src="foto.jpg">
+  <img slot="second" width="100%" src="image.jpg">
+</img-comparison-slider>
+  </div>
   </div>
 
   <div class="feature-row reverse">
